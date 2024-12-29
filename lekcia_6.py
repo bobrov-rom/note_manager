@@ -1,0 +1,5 @@
+name = input ("Укажите ваше имя")
+age = input ("Укажите свой возвраст")
+print (name,end='')
+print(", через 5 лет вам будет", end=' ')
+print(int(age)+5)
