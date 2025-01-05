@@ -6,7 +6,7 @@ issueDate = input ("Введите дату окончанияв формате 
 title = input ("Введите заголовок заметки: ")
 subTitile = input ("Введите подзоголовок заметки: ")
 note ={
-    'userName':userName,'content':content,'status':status,'createdDate':createdDate[:5],'issueDate':issueDate[:5], "title":
+    'userName':userName,'content':content,'status':status,'createdDate':createdDate[:5],'issueDate':issueDate[:5], "titles":
     [title, subTitile]
 }
 print(note)
