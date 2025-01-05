@@ -1,7 +1,7 @@
-inputUsername = input("Имя пользователя")
-inputTitle = input("Заголовок")
-inputContent = input("Описание")
-inputStatus = input("Статус") #переделать на буль
-inputCreated_date =  input("Дата начала")
-inputIssue_date =  input("Дата окончания")
+inputUsername = input("Введите имя пользователя")
+inputTitle = input("Введите заголовок")
+inputContent = input("Введите описание")
+inputStatus = input("введите статус")
+inputCreated_date =  input("Введите дату начала в формате 20 12 2025")
+inputIssue_date =  input("Введите дату окончанияв формате 20 12 2025")
 print(inputTitle,inputStatus,inputUsername,inputCreated_date,inputIssue_date)
