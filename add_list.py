@@ -6,6 +6,6 @@ discriptionTitle = input("Укажите описание")
 note1.append(title)
 note1.append(subTitle)
 note1.append(discriptionTitle)
-print (note1)
+print(note1)
 
 
